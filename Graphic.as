@@ -68,7 +68,7 @@
 			
 		}
 		
-		public function punkrender(buffer:BitmapData,matrix:Matrix,tint:ColorTransform = null,clone:Boolean=false,clone_id:uint=-1)
+		public function punkrender(buffer:BitmapData,matrix:Matrix,tint:ColorTransform = null,clone:Boolean=false,clone_id:uint=-1):void
 		{
 			var _renderer:Bitmap = FP.world.poolpull();
 			_renderer.cacheAsBitmap = false;
